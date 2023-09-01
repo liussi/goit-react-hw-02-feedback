@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 
 const Wrapper = styled.section`
 text-align: center;
+margin-bottom: 20px;
 `
 
 const Title = styled.h2

@@ -8,8 +8,7 @@ const FeedbackOptions = ({options, onLeaveFeedback}) => (
             {option}
           </Button>
         ))}
-      </div>
-   
+      </div> 
 )
  
 export default FeedbackOptions;
