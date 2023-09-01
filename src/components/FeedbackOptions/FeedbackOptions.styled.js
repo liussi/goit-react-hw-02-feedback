@@ -10,6 +10,7 @@ padding: 32px;
   text-transform: capitalize;
   margin-left: 20px;
   transition-duration: 300ms;
+  cursor: pointer;
   &:hover {
     color: white;
     scale: 1.05;
