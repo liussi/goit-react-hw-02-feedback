@@ -1,8 +1,10 @@
+import { Title, Wrapper } from './Section.styled.js'
+
 const Section = ({ title, children }) => (
-  <section>
-    <h2>{title}</h2>
+  <Wrapper>
+    <Title>{title}</Title>
     {children}
-  </section>
+  </Wrapper>
 );
 
 export default Section;

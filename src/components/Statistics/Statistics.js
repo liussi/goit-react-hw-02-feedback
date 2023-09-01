@@ -1,13 +1,14 @@
 import React from "react";
+import { List } from "./Statistics.styled";
 
 const Statistics = ({good, neutral, bad, total, positivePercentage}) => (
-<div>
-            <p>Good: { good}</p>
-            <p>Neatral: { neutral}</p>
-            <p>Bad: {bad }</p>
-            <p>Total: {total }</p>
-            <p>Positive feedback : { Math.floor(positivePercentage)}%</p>
- </div>
+<>
+            <List>Good: { good}</List>
+            <List>Neatral: { neutral}</List>
+            <List>Bad: {bad }</List>
+            <List>Total: {total }</List>
+            <List>Positive feedback : { Math.floor(positivePercentage)}%</List>
+ </>
 );
 
 export default Statistics;
