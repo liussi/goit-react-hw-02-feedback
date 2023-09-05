@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from "prop-types";
 import Statistics from './Statistics/Statistics'
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Section from './Section/Section';
