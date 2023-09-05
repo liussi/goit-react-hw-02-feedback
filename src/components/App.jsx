@@ -27,7 +27,7 @@ export class App extends React.Component {
 
      onLeaveFeedback = option => {
        this.setState(prevState => ({
-           ...prevState,
+      ...prevState,
       [option]: prevState[option] + 1,
     }));
   };
@@ -52,7 +52,6 @@ export class App extends React.Component {
     const total = this.countTotalFeedback();
 
       return (
-        
         <>
          <Section title="Please leave feedback">
         <FeedbackOptions options={options} onLeaveFeedback={this.onLeaveFeedback} />
