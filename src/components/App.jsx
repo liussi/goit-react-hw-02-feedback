@@ -13,11 +13,11 @@ export class App extends React.Component {
         badValue: 0
     }
     
-  static propTypes = { 
-    goodValue: PropTypes.number.isRequired,
-    neutralValue: PropTypes.number.isRequired,
-    badValue: PropTypes.number.isRequired,
-    }
+  // static propTypes = { 
+  //   goodValue: PropTypes.number.isRequired,
+  //   neutralValue: PropTypes.number.isRequired,
+  //   badValue: PropTypes.number.isRequired,
+  //   }
     
    state = {
         good: this.props.goodValue,
